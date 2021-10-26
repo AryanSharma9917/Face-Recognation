@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from PIL import Image
 
-DATASET_PATH = 'dataset'
+DATASET_PATH = 'Facerecognation/dataset'
 
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 
